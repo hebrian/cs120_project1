@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forever in Tune | Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>        
+        <!-- Main Navigation -->
+        <nav class="main-nav">
+            <a href="index.html">
+                <img src="images/forever_in_tune_logo.jpg" alt="Forever in Tune Logo" class="logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="songs.html">Song List</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <form action="/submit" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2024 Forever in Tune. Contact: <a href="mailto:info@foreverintune.com">info@foreverintune.com</a> | Call: (212) 123-4567</p>
+    </footer>
+</body>
+</html>

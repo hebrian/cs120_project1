@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/kimberly-richards-ERSauUNQ3ag-unsplash.jpg'); /* Path to your background image */
+    background-size: cover; /* Makes image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background fixed when scrolling */
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+.logo {
+    height: 60px;
+}
+/* Main Navigation */
+.main-nav {
+    display: flex; 
+    justify-content: space-between; /* Aligns logo to left and nav links to right */
+    align-items: center; /* Vertically centers logo and nav links */
+    background-color: #555; 
+    padding: 5px; /* Padding around the nav bar */
+}
+
+/* Logo inside navigation */
+.main-nav .logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Secondary Navigation */
+.secondary-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    background-color: #AAAAAA;
+    padding: 10px;
+    margin: 0;
+}
+
+.secondary-nav ul li {
+    display: inline;
+}
+
+.secondary-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Navigation */
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #555;
+    padding: 15px;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 15px;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px; 
+}
+
+/* Welcome Section */
+.welcome {
+    max-width: 800px; /* Limits the width of the section */
+    /* margin: 0 auto; /* Centers the section horizontally */
+    padding: 20px; /* Adds some space around the text */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
