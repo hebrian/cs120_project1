@@ -113,3 +113,54 @@ footer {
     padding: 20px; /* Adds some space around the text */
     border-radius: 8px; /* Optional: Adds rounded corners */
 }
+
+/* Media query for smaller screens (mobile and tablet) */
+@media (max-width: 768px) {
+
+    /* Sidebar */
+    .sidebar {
+        position: relative;
+        width: 100%;
+        right: 0;
+        top: auto;
+        transform: none;
+        margin-bottom: 20px;
+    }
+
+    /* Main Navigation */
+    .main-nav ul {
+        flex-direction: column; /* Stack navigation links vertically */
+        align-items: center;     /* Center them */
+        padding: 10px;
+    }
+
+    .main-nav .logo {
+        margin-right: 0;
+    }
+
+    .main-nav ul li {
+        margin-bottom: 10px;
+    }
+
+    /* Welcome Section */
+    .welcome {
+        padding: 15px; /* Reduce padding for better fit */
+    }
+
+    /* Adjust the width of the table */
+    table {
+        width: 100%; 
+        font-size: 14px;
+    }
+
+    table img {
+        width: 100%; /* Scale images within the table */
+        height: auto;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 12px; /* Smaller font size */
+        padding: 15px;
+    }
+}
